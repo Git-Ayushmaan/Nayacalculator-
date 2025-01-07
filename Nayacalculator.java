@@ -35,7 +35,8 @@ public class Calculator{
                 if (num2!=0) {
                     System.out.println("Result: " + result);
                 }
-                break;
+     
+           break;
 
 		
                
@@ -44,8 +45,18 @@ public class Calculator{
 		}
 
                 sc.close();
+
         }
 
 	 public static double add(double num1, double num2) {
                 return num1 + num2;
         }
+
+        
+	
+	public static double subtract(double num1, double num2) {
+                return num1 - num2;
+        }
+}
+	 
+
